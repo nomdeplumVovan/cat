@@ -17,7 +17,7 @@ footer{
   /* text-align: right; */
   font-style: italic;
   height: 150px;
-  background-image: url(../image/photoCat1.svg);
+  background-image: url(../assets/image/photoCat1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100px;
