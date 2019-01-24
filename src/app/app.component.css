@@ -1,13 +1,20 @@
 .photo{
 text-align: center;
+
 }
 
 h1{
   color: rgb(38, 116, 112);
 }
-img{
+.photo-img{
   opacity: 0.8;
   width: 100px;
+  height: 200px;
+  background-image: url(../assets/image/photo_2019-01-24_11-47-12.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center  bottom;
+  margin: 0 auto;
 }
 .description{
   width: 760px;
