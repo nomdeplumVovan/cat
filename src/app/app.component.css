@@ -1,0 +1,24 @@
+.photo{
+text-align: center;
+}
+
+h1{
+  color: rgb(38, 116, 112);
+}
+img{
+  opacity: 0.8;
+  width: 100px;
+}
+.description{
+  width: 760px;
+  text-align: justify;
+}
+footer{
+  /* text-align: right; */
+  font-style: italic;
+  height: 150px;
+  background-image: url(../assets/image/photoCat1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100px;
+}
