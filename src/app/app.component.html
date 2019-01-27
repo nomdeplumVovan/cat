@@ -1,11 +1,13 @@
-<div class="photo">
+
+ <div class="photo ">
 
   <div class="photo-img"></div>
 
   <h1>Почему я хочу работать контент менеджером </h1>
+  <button (click)='isShown=!isShown'>show/hide</button>
 
 </div>
-<div class="description">
+<div class="description " *ngIf="isShown">
   <p>Разберемся с самого начала.
 
   </p>
@@ -84,7 +86,8 @@
   </p>
   <p> Вот поэтому я и хочу работать контент менджером.
   </p>
+  <button (click)='isShownFooter=!isShownFooter'>PostScriptum</button>
 </div>
-<footer>
+<footer *ngIf="isShownFooter"> 
   и, конечно, котик
 </footer>
