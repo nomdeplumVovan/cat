@@ -4,7 +4,8 @@
   <div class="photo-img"></div>
 
   <h1>Почему я хочу работать контент менеджером </h1>
-  <button (click)='isShown=!isShown'>show/hide</button>
+  <button (click)='isShown=!isShown' *ngIf="!isShown">Показать</button>
+  <button (click)='isShown=!isShown' *ngIf="isShown">Скрыть</button>
 
 </div>
 <div class="description " *ngIf="isShown">
@@ -88,6 +89,7 @@
   </p>
   <button (click)='isShownFooter=!isShownFooter'>PostScriptum</button>
 </div>
+<!-- <app-animate></app-animate> -->
 <footer *ngIf="isShownFooter"> 
   и, конечно, котик
 </footer>
